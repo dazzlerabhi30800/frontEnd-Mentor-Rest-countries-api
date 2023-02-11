@@ -1,0 +1,59 @@
+nav {
+  padding: 1.5rem;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-Munito);
+  font-weight: 400;
+  transition: all 0.3s linear;
+}
+
+body.dark nav {
+  background: var(--Dark-Blue-Dark-Mode-Elements);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: calc(7px + 2vw);
+  color: var(--Very-Dark-Blue-Light-Mode-Text);
+}
+
+body.dark .logo {
+  color: #fff;
+}
+
+.theme--switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: var(--Dark-Blue-Dark-Mode-Elements);
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: calc(7px + 2vw);
+}
+
+body.dark .theme--switcher {
+  color: #fff;
+}
+
+.theme--switcher > span {
+  font-weight: 600;
+}
+
+@media (hover: hover) {
+  .theme--switcher {
+    cursor: pointer;
+  }
+}
+
+@media Screen and (min-width: 950px) {
+  nav {
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  .theme--switcher {
+    font-size: 1.2rem;
+  }
+}
