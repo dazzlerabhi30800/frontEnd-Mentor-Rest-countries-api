@@ -7,7 +7,7 @@ const CountryComp = ({ data, numberWithCommas, countryHandler }) => {
         <img src={data.flags.svg} alt={data.name} />
       </div>
       <div className="info">
-        <h2 className="country--name">{data.name}</h2>
+        <h1 className="country--name">{data.name}</h1>
         <div className="stats--container">
           <div className="stats population">
             <span>Population:</span>

@@ -80,7 +80,7 @@ body.dark .country {
 body.dark .info {
   color: #fff;
 }
-.info > h2 {
+.info > h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 700;
