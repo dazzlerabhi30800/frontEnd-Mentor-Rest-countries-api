@@ -22,8 +22,8 @@ const AddInfo = ({
       <div className="country--info--wrapper">
         <div className="country--logo">
           <img
-            src={additionalInfo.flag}
-            alt={additionalInfo.name}
+            src={additionalInfo.flag ? additionalInfo.flag : 'https://flagcdn.com/ax.svg'}
+            alt={additionalInfo.name ? additionalInfo.name : 'Country Name'}
             aria-hidden="true"
           />
         </div>
