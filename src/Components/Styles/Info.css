@@ -74,7 +74,7 @@ body.dark .country--info--container {
 .country--info > p {
   margin: 0;
   font-weight: 500;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .country--info > p > span {
   color: #999999;
@@ -92,7 +92,7 @@ body.dark .country--info--container {
 .country--status > p {
   margin: 0;
   font-weight: 500;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .country--status > p > span {
   color: #999999;
@@ -124,15 +124,14 @@ body.dark .country--status > p > span {
   padding: 7px 15px;
   display: flex;
   text-align: center;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
-.body.dark .border--country {
+body.dark .border--country {
   background: var(--Dark-Blue-Dark-Mode-Elements);
   color: #fff;
 }
 
-
-@media (hover:hover) {
+@media (hover: hover) {
   .back--btn {
     cursor: pointer;
   }

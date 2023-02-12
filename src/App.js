@@ -6,9 +6,6 @@ import Countries from "./Components/Countries";
 import AddInfo from "./Components/AddInfo";
 
 function App() {
-  const handleClick = () => {
-    console.log("click");
-  };
   const [filterRegion, setFilterRegion] = useState("Filter by Region");
   const [filterData, setFilterData] = useState([]);
   const [inputText, setInputText] = useState("");
@@ -68,7 +65,7 @@ function App() {
     let searchCountry = filterData.find((country) => country.name === name);
     setAdditionalInfo(searchCountry);
     setShowInfo(true);
-  }
+  };
 
   return (
     <div className="App">
