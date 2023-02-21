@@ -20,7 +20,7 @@ const Countries = ({ filterData, numberWithCommas, countryHandler, showInfo }) =
           Load Less
         </button>
         <button
-          disabled={slicedData === filterData.length}
+          disabled={slicedData >= filterData.length}
           onClick={() => setSlicedData((prevState) => prevState + 4)}
           className="btn more"
         >
